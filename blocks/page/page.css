@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../../fonts/Inter.ttf);
+}
+
+.page {
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    font-family: "Inter", Arial, sans-serif;
+}
