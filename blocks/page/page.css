@@ -1,11 +1,6 @@
-@font-face {
-    font-family: "Inter";
-    src: url(../../fonts/Inter.ttf);
-}
-
 .page {
     margin: 0;
-    background-color: black;
+    background-color: #2A2C2F;
     color: #fff;
     font-family: "Inter", Arial, sans-serif;
 }

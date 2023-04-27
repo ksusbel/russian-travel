@@ -20,7 +20,6 @@
 
 @media screen and (min-width: 1280px) {
   .places {
-      max-width: 76%;
-      padding: 92px 0 0 0;
-  }
+      max-width: 76%;      
+}
 }
