@@ -1,5 +1,5 @@
 .place__paragraph {
-    padding: 32px 16px 0 16px;
+    padding: 0 16px 25px 16px;
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -7,8 +7,22 @@
     line-height: 163%;
 }
 
+.place__paragraph:first-of-type {
+    padding: 32px 16px 25px 16px;
+}
+
+.place__paragraph:last-of-type {
+    padding: 0 16px 25px 16px;
+}
+
 @media screen and (min-width: 768px) {
     .place__paragraph {
+        padding: 0 0 25px 40px;
+    }
+    .place__paragraph:first-of-type {
+        padding: 0 0 25px 40px;
+    }
+    .place__paragraph:last-of-type {
         padding: 0 0 0 40px;
     }
 }
@@ -16,5 +30,6 @@
 @media screen and (min-width: 1024px) {
     .place__paragraph {
         font-size: 18px;
+        padding: 0 0 26px 40px;
     }
 }
