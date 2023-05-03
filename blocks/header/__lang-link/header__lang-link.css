@@ -4,8 +4,7 @@
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
-  margin: 0 0 32px 18px;
-  text-align: right;
+  margin: 0;
 }
 
 .header__lang-link:hover {
