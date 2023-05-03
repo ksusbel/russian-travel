@@ -1,5 +1,4 @@
 .header__lang-links {
-    align-self: center;
     display: flex;
     flex-direction: row;
     gap: 18px;
